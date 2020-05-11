@@ -1,4 +1,4 @@
-# Welcome to Minesweeper!
+
 
 ![Screenshot of Minesweeper](./src/assets/img/game.png)
 
