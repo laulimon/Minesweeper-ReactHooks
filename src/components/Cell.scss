@@ -1,0 +1,88 @@
+.cell {
+  padding: 3px;
+  border-top: 2px solid #f2f2f2;
+  border-left: 2px solid #f2f2f2;
+  border-right: 2px solid gray;
+  border-bottom: 2px solid gray;
+
+  .cell_content {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    
+    &._1 {
+      color: #D9435F;
+    }
+
+    &._2 {
+      color: #5E66F2;
+    }
+
+    &._3 {
+      color: #06080D;
+    }
+
+    &._4 {
+      color: #72F2F2;
+    }
+
+    &._5 {
+      color: #F2CB07;
+    }
+
+    &._6 {
+      color: rgb(15, 243, 27);
+    }
+
+    &._7 {
+      color: #ce8f09;
+    }
+
+    &._8 {
+      color: rgb(255, 22, 22);
+    }
+
+  }
+
+  .mine {
+    background-image: url('../assets/img/mine1.png');
+
+  }
+
+  &.open {
+    border: 0.5px solid gray;
+    background-color: #eee;
+    
+    .mine {
+      background-image: url('../assets/img/bang.png');
+    }
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: darkgray;
+    border: 0.5px solid gray;
+
+    &.open {
+      background-color: #eee;
+    }
+  }
+
+  .cell_content.hasFlag {
+    background-image: url('../assets/img/flag.jpeg');
+
+
+  }
+
+  &.noHover:hover {
+    cursor: default; 
+    background-color: #c4c4c4;
+    border-top: 2px solid #f2f2f2;
+    border-left: 2px solid #f2f2f2;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+  }
+}
