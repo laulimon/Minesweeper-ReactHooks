@@ -4,7 +4,7 @@
 
 ## install dependencies'
 
-For the very first time, run `npm` to install dependencies.
+For the very first time, run `npm i` to install dependencies.
 
 ## Start the game'
 
@@ -19,5 +19,5 @@ Ladies and gentlemen, let the 74th Hunger Games begin, and may the odds be ever 
 
 
 ## P.S. 
-If you have any problems with "babel-eslint" please create an .env file and add SKIP_PREFLIGHT_CHECK=true on it.
+If you have any problems with "babel-eslint" please create an `.env` file and add `SKIP_PREFLIGHT_CHECK=true` to it.
 
